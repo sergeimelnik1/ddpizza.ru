@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/redesign/components/studiofact/sale.order.ajax/new_order/script.js" => "159786742456802","/bitrix/templates/redesign/components/studiofact/sale.order.ajax/new_order/order_ajax.js" => "1585720465233098","/bitrix/components/bitrix/sale.location.selector.steps/templates/.default/script.js" => "15740183027752",); ?>

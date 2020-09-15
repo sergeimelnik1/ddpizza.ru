@@ -1,0 +1,5 @@
+<?php
+
+$MESS['GC_RKEEPER_DELIVERY_MODULE_NAME'] = 'R-Keeper Delivery';
+$MESS['GC_RKEEPER_DELIVERY_MODULE_DESCRIPTION'] = 'Delivery module for R-Keeper.';
+$MESS['GC_RKEEPER_DELIVERY_MODULE_PARTNER_NAME'] = 'Golden Code';

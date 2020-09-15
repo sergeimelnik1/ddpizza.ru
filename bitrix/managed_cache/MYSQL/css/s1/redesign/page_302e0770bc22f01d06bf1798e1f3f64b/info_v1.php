@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/components/bitrix/sale.personal.order.cancel/templates/.default/style.css" => "15330689184447",); ?>

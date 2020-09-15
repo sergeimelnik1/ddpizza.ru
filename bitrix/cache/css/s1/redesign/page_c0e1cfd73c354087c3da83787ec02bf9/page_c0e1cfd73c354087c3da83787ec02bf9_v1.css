@@ -1,0 +1,285 @@
+
+
+/* Start:/bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?153306877051*/
+font.errortext{color:red}font.notetext{color:green}
+/* End */
+
+
+/* Start:/bitrix/templates/redesign/components/bitrix/main.userconsent.request/.default/user_consent.css?15796356963432*/
+.main-user-consent-request a {
+	cursor: pointer;
+}
+
+.main-user-consent-request-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(51, 51, 51, 0.5);
+	overflow: hidden;
+	z-index: 9000;
+}
+
+.main-user-consent-request-popup-cont {
+	min-height: 386px; /* loader magic */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	width: 540px;
+	max-width: 100%;
+	background: #fff;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.main-user-consent-request-popup-header {
+	margin: 0 0 30px 0;
+	font: normal 18px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: left;
+}
+
+.main-user-consent-request-popup-textarea-block {
+	margin: 0 0 20px 0;
+}
+
+.main-user-consent-request-popup-buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.main-user-consent-request-popup-button {
+
+	text-align: center;
+	height: 40px;
+	width: 128px;
+	margin: 0 10px 0px 0;
+	padding: 10px 1px;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	vertical-align: middle;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: none;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: background-color 0.2s linear, color 0.2s linear;
+	transition: background-color 0.2s linear, color 0.2s linear;
+	cursor: pointer;
+}
+
+.main-user-consent-request-popup-button-acc {
+	background: #ee5126;
+	border: 1px solid #ee5126;
+	color: #fff;
+}
+
+.main-user-consent-request-popup-button-acc:hover {
+	background: #ee5126;
+	border: 1px solid #ee5126;
+	color: #fff;
+}
+
+.main-user-consent-request-popup-button-rej {
+	background: #fff;
+	border: 1px solid #ee5126;
+	color: #ee5126;
+}
+
+.main-user-consent-request-popup-button-rej:hover {
+	background: #ee5126;
+	border: 1px solid #ee5126;
+	color: #fff;
+}
+
+.main-user-consent-request-popup-text {
+	padding: 5px 10px;
+	width: 100%;
+	height: 230px;
+	border: 1px solid #999;
+	background: #fff;
+	box-sizing: border-box;
+	outline: none;
+	resize: none;
+	-moz-appearance: none;
+}
+
+
+/** LOADER **/
+.main-user-consent-request-loader {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	-webkit-transform: translate(0, 50%);
+	transform: translate(0, 50%);
+}
+
+.main-user-consent-request-path {
+	stroke: #80868e;
+	stroke-dasharray: 100, 200;
+}
+
+.main-user-consent-request-loader:before {
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.main-user-consent-request-circular {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: inherit;
+	width: inherit;
+	-webkit-animation: rotate 1s linear infinite;
+	animation: rotate 1s linear infinite;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+.main-user-consent-request-path {
+	stroke: #ccc;
+	stroke-dasharray: 60, 200;
+	stroke-dashoffset: 0;
+	-webkit-animation: dash 1.5s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/sale.personal.order.cancel/templates/.default/style.css?15330689184447*/
+.bx_my_order_cancel{
+	margin-top: 20px;
+	font-size: 15px;
+}
+.bx_my_order_cancel a{
+	color: #0073a3;
+}
+
+.bx_my_order_cancel textarea{
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	max-width: 500px;
+}
+
+.bx_my_order_cancel  input[type="submit"]{
+	border-radius:3px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	color: #3f3f3f !important;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 10px 25px;
+}
+.bx_my_order_cancel .bx_shadow input[type="submit"]{box-shadow:0 1px 1px 0 rgba(0,0,0,.2)}
+.bx_my_order_cancel .bx_shadow input[type="submit"]:active{box-shadow:none}
+
+.bx_my_order_cancel  input[type="submit"] 		{
+	border:1px solid #e9e9e9;
+	background:#fcfcfc;
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmNmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMWYxZjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f1f1f1));
+	background:-webkit-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+	background:   -moz-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+	background:    -ms-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+	background:     -o-linear-gradient(top, #fcfcfc 0%,#f1f1f1 100%);
+	background:        linear-gradient(to bottom, #fcfcfc 0%,#f1f1f1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f1f1f1',GradientType=0 );
+	color:#656565;
+	text-shadow:0 1px 0 #fff;
+}
+.bx_my_order_cancel  input[type="submit"]:hover 	{background:#fff}
+.bx_my_order_cancel  input[type="submit"]:active {
+	background:#f1f1f1;
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmY2ZjZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#fcfcfc));
+	background:-webkit-linear-gradient(top, #f1f1f1 0%,#fcfcfc 100%);
+	background:   -moz-linear-gradient(top, #f1f1f1 0%,#fcfcfc 100%);
+	background:    -ms-linear-gradient(top, #f1f1f1 0%,#fcfcfc 100%);
+	background:     -o-linear-gradient(top, #f1f1f1 0%,#fcfcfc 100%);
+	background:        linear-gradient(to bottom, #f1f1f1 0%,#fcfcfc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#fcfcfc',GradientType=0 );
+	box-shadow:inset 0 2px 2px 0 rgba(0,0,0,.05);
+}
+
+.bx_my_order_cancel .bx_small input[type="submit"]{
+	display:inline-block;
+	min-width:20px;
+	line-height:20px;
+}
+.bx_my_order_cancel .bx_small input[type="submit"] 		{}
+.bx_my_order_cancel .bx_small input[type="submit"]:hover {}
+.bx_my_order_cancel .bx_small input[type="submit"]:active{}
+
+.bx_my_order_cancel .bx_medium input[type="submit"]	{
+	padding:0 13px;
+	height:25px;
+	font-weight:bold;
+	line-height:25px;
+}
+
+.bx_my_order_cancel .bx_medium input[type="submit"] 		 {font-weight:bold}
+.bx_my_order_cancel .bx_medium input[type="submit"]:hover {}
+.bx_my_order_cancel .bx_medium input[type="submit"]:active{}
+
+.bx_my_order_cancel .bx_big input[type="submit"]	{
+	padding:0 13px;
+	height:34px;
+	font-weight:bold;
+	line-height:34px;
+}
+
+.bx_my_order_cancel .bx_big input[type="submit"] 	  {}
+.bx_my_order_cancel .bx_big input[type="submit"]:hover {}
+.bx_my_order_cancel .bx_big input[type="submit"]:active{}
+
+.bx_my_order_cancel_switch {
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.bx_my_order_cancel_switch .bx_mo_link{
+	margin-right: 20px;
+}
+/* End */
+/* /bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?153306877051 */
+/* /bitrix/templates/redesign/components/bitrix/main.userconsent.request/.default/user_consent.css?15796356963432 */
+/* /bitrix/components/bitrix/sale.personal.order.cancel/templates/.default/style.css?15330689184447 */

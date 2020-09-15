@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/crm/css/bootstrap-reboot.min.css" => "15414384294019","/bitrix/templates/crm/css/bootstrap-grid.min.css" => "154143842928977","/bitrix/templates/crm/css/bootstrap.min.css" => "1541438429140936",); ?>

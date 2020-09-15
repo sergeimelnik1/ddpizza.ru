@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001595339731';
+$dateexpire = '001595343331';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:520;a:14:{s:2:"ID";s:3:"520";s:11:"TIMESTAMP_X";O:25:"Bitrix\\Main\\Type\\DateTime":1:{s:8:"'.chr(0).'*'.chr(0).'value";O:8:"DateTime":3:{s:4:"date";s:26:"2019-10-25 14:18:39.000000";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Moscow";}}s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"1284";s:5:"WIDTH";s:3:"980";s:9:"FILE_SIZE";s:6:"356787";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/9a8";s:9:"FILE_NAME";s:36:"9a8f092aba5670b59daef95bccf0ae21.jpg";s:13:"ORIGINAL_NAME";s:43:"1_Тартар из краба_conv (1).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"840bac0fd932c5da28f177805e9356da";s:4:"~src";b:0;}i:524;a:14:{s:2:"ID";s:3:"524";s:11:"TIMESTAMP_X";O:25:"Bitrix\\Main\\Type\\DateTime":1:{s:8:"'.chr(0).'*'.chr(0).'value";O:8:"DateTime":3:{s:4:"date";s:26:"2019-05-25 12:21:55.000000";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Moscow";}}s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"1193";s:5:"WIDTH";s:3:"980";s:9:"FILE_SIZE";s:6:"360452";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/3fc";s:9:"FILE_NAME";s:36:"3fca789ea6ccab51e9c64bd560306d7b.jpg";s:13:"ORIGINAL_NAME";s:69:"5_САЛАТ ИЗ РУККОЛЫ С КРЕВЕТКАМИ_conv (5).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"79fc53ed0f2a34a547ba14dc3ce3fc15";s:4:"~src";b:0;}}}';
+return true;
+?>

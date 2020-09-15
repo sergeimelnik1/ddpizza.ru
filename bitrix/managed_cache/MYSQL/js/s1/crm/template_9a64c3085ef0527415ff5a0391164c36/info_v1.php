@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/crm/js/jquery-3.3.1.min.js" => "157401830786927","/bitrix/templates/crm/js/bootstrap.min.js" => "157401830751039","/bitrix/templates/crm/js/bootstrap.bundle.min.js" => "157401830770966",); ?>

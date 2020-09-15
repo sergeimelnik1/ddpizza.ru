@@ -1,0 +1,16 @@
+.login_links {
+    text-align: right;
+    color:#fff;
+}
+.login_links ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login_links li {
+    display: flex;
+    align-items: center;
+}
+.login_links li img {
+    margin-right: 1rem;
+}

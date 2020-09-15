@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001600167729';
+$dateexpire = '001600171329';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:5:{s:48:"tbl_iblock_list_d1cb75b5aaf00401fd4a48cc75b13ebc";a:4:{s:7:"columns";s:28:"NAME,ACTIVE,DATE_ACTIVE_FROM";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:55:"tbl_iblock_sub_element_ef0c70488f2295b4f6bae07cdcf066f1";a:4:{s:7:"columns";s:129:"CATALOG_TYPE,NAME,PROPERTY_57,PROPERTY_63,PROPERTY_56,ACTIVE,SORT,ID,CATALOG_AVAILABLE,CATALOG_GROUP_1,DETAIL_PICTURE,EXTERNAL_ID";s:2:"by";s:2:"id";s:5:"order";s:3:"asc";s:9:"page_size";s:2:"20";}s:16:"tbl_main_message";a:4:{s:7:"columns";s:64:"ID,TIMESTAMP_X,ACTIVE,LID,EVENT_NAME,SUBJECT,EMAIL_TO,EMAIL_FROM";s:2:"by";s:2:"id";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:49:"tbl_product_list_a787d39d17af063ea1c165aff454b7d6";a:4:{s:7:"columns";s:74:"CATALOG_TYPE,NAME,ACTIVE,SORT,TIMESTAMP_X,ID,CATALOG_AVAILABLE,PROPERTY_60";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:14:"tbl_sale_order";a:4:{s:7:"columns";s:101:"DATE_INSERT,ID,STATUS_ID,PROP_FIO,PROP_PHONE,PRICE,BASKET,PROP_ADDRESS,PROP_table,PAY_SYSTEM,SUM_PAID";s:2:"by";s:2:"ID";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}}}';
+return true;
+?>

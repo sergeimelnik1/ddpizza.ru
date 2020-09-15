@@ -1,0 +1,6 @@
+<?php
+$MESS['SBERBANK_PAYMENT_MESSAGE_THANKS_DESCRIPTION'] = 'Payment for order number';
+$MESS['SBERBANK_PAYMENT_MESSAGE_THANKS'] = 'Thank you for your purchase!';
+$MESS['SBERBANK_PAYMENT_MESSAGE_ERROR'] = "Error paying for the order!";
+$MESS['SBERBANK_PAYMENT_FIELD_MEASURE'] = 'PC';
+$MESS['SBERBANK_PAYMENT_FIRLD_DELIVERY'] = 'Delivery';

@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/redesign/components/bitrix/main.feedback/.default/style.css" => "1592947232598",); ?>

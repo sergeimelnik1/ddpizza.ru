@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/templates/redesign/components/bitrix/catalog/.default/script.js" => "15796356262075","/bitrix/templates/redesign/components/bitrix/catalog.section/visual/script.js" => "157963567110232","/bitrix/templates/redesign/components/bitrix/catalog.item/redesign/script.js" => "159536220597787",); ?>

@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/components/averic/sale.personal.order.list/templates/.default/script.js" => "158348427714747",); ?>

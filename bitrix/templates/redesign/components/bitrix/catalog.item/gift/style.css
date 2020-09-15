@@ -1,0 +1,18 @@
+#ajaxload .logo img {
+  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
+  animation-iteration-count: infinite;
+  perspective: 1000px;
+  width: 150px;
+}
+div#ajaxload {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background: rgba(255,255,255,0.7);
+    align-items: center;
+    justify-content: center;
+}

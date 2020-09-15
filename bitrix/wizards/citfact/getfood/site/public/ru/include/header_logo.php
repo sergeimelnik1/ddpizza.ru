@@ -1,0 +1,1 @@
+<img itemprop="logo" src="<?=SITE_DIR;?>logo.svg" title="Интернет-магазин доставки" alt="Интернет-магазин доставки" />
